@@ -17,10 +17,20 @@ after_success:
   - npm run coverage
   - npm install -g travis-deploy-once
   - travis-deploy-once "npm run semantic-release"
-  - cd examples
-  - npm install
-  - npm run deploy -- --ci --host-token-env-variable=GITHUB_TOKEN
 branches:
   only:
     - master
+    - dev
     - /^greenkeeper/.*$/
+before_deploy:
+  - cd examples
+  - npm install
+  - npm run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: false
+  local-dir: site
+  on:
+    branch: master

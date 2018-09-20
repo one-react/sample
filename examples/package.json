@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "start-storybook -p 9001 -c .storybook",
-    "build-storybook": "build-storybook -s public",
+    "build": "build-storybook -s public -o site",
     "predeploy": "npm run build",
     "deploy": "storybook-to-ghpages"
   },
