@@ -32,6 +32,6 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: false
-  local-dir: site
+  local-dir: examples/site
   on:
     branch: master
