@@ -35,3 +35,4 @@ deploy:
   local-dir: examples/site
   on:
     branch: master
+    node: '10'
