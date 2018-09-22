@@ -1,6 +1,8 @@
 # One React Component: sample
 > one react component: sample
 
+<p align="center"><img width="100" src="https://cdn.rawgit.com/one-react/assets/23f3d48f/logo.png" alt="logo"></p>
+
 [![TravisCI Build](https://img.shields.io/travis/one-react/sample.svg)](https://travis-ci.org/one-react/sample)
 [![CircieCI Build](https://img.shields.io/circleci/project/github/one-react/sample.svg)](https://circleci.com/gh/one-react/sample)
 [![Coverage](https://img.shields.io/codecov/c/github/one-react/sample.svg)](https://codecov.io/gh/one-react/sample) 
