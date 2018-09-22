@@ -1,4 +1,4 @@
-# One More React Component: sample
+# One React Component: sample
 > one react component: sample
 
 [![TravisCI Build](https://img.shields.io/travis/one-react/sample.svg)](https://travis-ci.org/one-react/sample)
