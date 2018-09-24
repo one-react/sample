@@ -1,2 +1,2 @@
-export { Hello as default } from './Hello'
+export { Sample as default } from './Sample'
 import './styles.scss'
