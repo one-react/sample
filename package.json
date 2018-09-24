@@ -1,6 +1,6 @@
 {
   "name": "or-sample",
-  "description": "one react component: sample",
+  "description": "",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": true,
