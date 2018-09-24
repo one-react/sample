@@ -14,9 +14,8 @@ before_script:
   - PATH=${PATH//:\.\/node_modules\/\.bin/}
 after_success:
   - npm run build
-  - npm run coverage
   - npm install -g travis-deploy-once
-  - travis-deploy-once "npm run semantic-release"
+  - travis-deploy-once "npm run coverage && npm run semantic-release"
 branches:
   only:
     - master
