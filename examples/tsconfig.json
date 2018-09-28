@@ -1,15 +1,18 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "*": [
-        "src/*",
-        "stories/*",
-        "typings/*"
-      ],
       "or-sample": [
-        "src/index.ts"
+        "../src"
       ]
     }
-  }
+  },
+  "include": [
+    "stories",
+    "../src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
