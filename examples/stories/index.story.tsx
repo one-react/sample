@@ -3,7 +3,7 @@ import { withInfo } from '@storybook/addon-info'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 
-import Sample from '../../src'
+import Sample from 'or-sample'
 import { previewCode } from './util'
 
 import Example from './example'
