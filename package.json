@@ -1,6 +1,6 @@
 {
   "name": "or-sample",
-  "description": "",
+  "description": "test",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": true,
