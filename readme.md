@@ -1,5 +1,4 @@
-# One React Component: sample 
-> test
+# One React Component: sample
 
 <p align="center"><img width="150" src="https://cdn.rawgit.com/one-react/assets/master/logo%402x.png" alt="logo"></p>
 
