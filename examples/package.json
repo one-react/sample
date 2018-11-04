@@ -11,7 +11,7 @@
   },
   "storybook-deployer": {
     "gitUsername": "Yuki Bot",
-    "gitEmail": "zhangjihong1993@gmail.com",
+    "gitEmail": "foryuki@outlook.com",
     "commitMessage": "Deploy Storybook to GitHub Pages"
   },
   "author": "foryuki <foryuki@outlook.com>",
