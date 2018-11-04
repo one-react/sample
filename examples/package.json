@@ -7,7 +7,7 @@
     "type-check": "tsc --noEmit",
     "dev": "start-storybook -s public -p 9001 -c .storybook",
     "build": "build-storybook -s public -o site",
-    "deploy": "storybook-to-ghpages --existing-output-dir=site"
+    "deploy": "storybook-to-ghpages --ci --existing-output-dir=site --host-token-env-variable=GH_TOKEN"
   },
   "storybook-deployer": {
     "gitUsername": "Yuki Bot",
