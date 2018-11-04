@@ -26,12 +26,10 @@ before_deploy:
   - cd examples
   - npm install
   - npm run build
+# https://docs.travis-ci.com/user/deployment/script
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GH_TOKEN
-  keep-history: false
-  local-dir: examples/site
+  provider: script
+  script: npm run deploy
   on:
     branch: master
     node: '10'
