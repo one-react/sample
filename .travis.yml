@@ -29,7 +29,9 @@ before_deploy:
 # https://docs.travis-ci.com/user/deployment/script
 deploy:
   provider: script
-  script: pwd && npm run deploy
+  script: npm run deploy
+  skip-cleanup: true
+  keep-history: false
   on:
     branch: master
     node: '10'
