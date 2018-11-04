@@ -1,0 +1,52 @@
+.or-btn {
+  display: inline-block;
+  min-width: 120px;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #212121;
+  border-width: 1px;
+  border-color: #212121;
+  border-style: solid;
+  font-size: 14px;
+  border-radius: 1px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer; }
+  .or-btn:hover {
+    background-color: #212121;
+    color: #fff; }
+
+.or-btn-primary {
+  background-color: #212121;
+  color: #fff;
+  border-color: #212121; }
+  .or-btn-primary:hover {
+    background-color: #333;
+    border-color: #333; }
+
+.or-btn-warning {
+  background-color: #F44336;
+  color: #fff;
+  border-color: #F44336; }
+  .or-btn-warning:hover {
+    background-color: #F16459;
+    border-color: #F16459; }
+
+.or-btn {
+  margin-left: 20px;
+  margin-bottom: 20px; }
+
+.logo-img,
+.logo-bg {
+  width: 200px;
+  height: 200px; }
+
+.logo-bg {
+  background-image: url("logo@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+
+/*# sourceMappingURL=iframe.8a55c88d.chunk.css.map*/
