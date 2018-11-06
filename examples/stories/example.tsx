@@ -22,7 +22,11 @@ export default class Example extends PureComponent<{}, {}> {
         <h1>test for image</h1>
         <div>
           <h3>img tag</h3>
-          <img className="logo-img" src={require('./logo@2x.png')} alt="logo" />
+          <img
+            className="logo-img"
+            src={require('./assets/logo@2x.png')}
+            alt="logo"
+          />
           <h3>background image</h3>
           <div className="logo-bg" />
         </div>
