@@ -16,6 +16,10 @@ module.exports = (baseConfig, env, defaultConfig) => {
     ]
   })
 
+  if (env === 'production'.toUpperCase()) {
+    defaultConfig.output.publicPath = process.env.GH_PAGES ? '/sample/' : '/'
+  }
+
   defaultConfig.resolve.alias['or-sample'] = path.resolve(__dirname, '../../src')
 
   defaultConfig.resolve.extensions.push('.ts', '.tsx')
